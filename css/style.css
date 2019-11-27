@@ -1,5 +1,107 @@
-body{
-    /* background: #d1cece;
-    font-style: italic;
-    color: aliceblue; */
+body {
+    background: #d1cece;
+    margin: 0;
+    
+
 }
+.link-title{
+    text-decoration:none ;
+    font-size: 24px;
+    color: rgb(115, 133, 130);
+}
+.link-title:hover{
+    color: rgb(9, 66, 59);
+    font-size: 27px;
+
+}
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background: azure;
+
+}
+
+.header {
+    padding: 45px 0 20px 40px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu {
+    background: rgb(11, 134, 134);
+    padding: 10px 2px 10px 20px;
+    height: 18px;
+}
+
+.menu a {
+    color: rgb(181, 207, 204);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.menu a:hover {
+    color: rgb(9, 66, 59);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+aside {
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px
+}
+
+h1 {
+    margin: 0px;
+    color: cadetblue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    color: rgb(181, 207, 204);
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+
+}
+
+.main {
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: rgb(54, 174, 179);
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+.main a:hover{
+    color: #444444;
+}
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: right;
+}
+footer a{
+    text-decoration: none;
+    color: #262626;
+
+}
+/*********************about-page **************/
+
+#about-page #home-image img{
+width: 70%;
+float: left;
+}
+/* }
+#about-page #profile-info{
+    width: 30%;
+    float: right;
+    
+} */
