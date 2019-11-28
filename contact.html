@@ -11,7 +11,7 @@
 </head>
 
 
-<body>
+<body id="contact">
 
     <div class="container">
 
@@ -38,9 +38,36 @@
 
 
         <article class="main">
-            <div id="home-image">
-                <img src="http://placehold.it/500x150" alt="home-image">
+            <h1>Contact</h1>
+            <div id="form">
+                <form action="process.php">
+                        <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Your Name">
+                        </p>
+                        <p>
+                        <label for="name">Email:</label>
+                        <input type="text" name="email"placeholder="Your mail">
+                        </p>
+                        <p>
+                        <label for="name">Subject:</label>
+                        <input type="text" name="subject"placeholder="Some subejct">
+                        </p>
+                        <p>
+                        <label for="Message"></label>   
+                        <textarea name="message" id="message" cols="30" rows="10"placeholder="some tekst"></textarea> 
+                        </p>
+
+                         
+                         <p>
+                                <input id="submit"type="submit" name="submit" value="Send Message" >
+                         </p
+
+
+                </form>
             </div>
+
+
 
 
 

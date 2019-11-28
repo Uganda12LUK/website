@@ -23,7 +23,7 @@ body {
 
 .header {
     padding: 45px 0 20px 40px;
-    border: 2px solid black;
+
     text-decoration: none;
     font-size: 30px;
 }
@@ -60,9 +60,11 @@ h1 {
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    text-align: center;
+    padding: 8px;
 }
 
-h2 {
+h2{
     color: rgb(181, 207, 204);
     font-size: 15px;
     margin: 20px 0 5px 0;
@@ -105,3 +107,29 @@ float: left;
     float: right;
     
 } */
+
+/**************************Contact page***************/
+
+
+#contact #form{
+    width: 500px;
+
+    padding: 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px  3px 13px 2px;
+    border-radius: 5px;
+}
+#contact #form input{
+width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: rgb(186, 204, 203);
+}
+#contact #form #message{
+    width: 100%;
+        border-radius: 5px;
+        background: rgb(186, 204, 203);
+    }
+ #contact #form #submit{
+    background: rgb(11, 134, 134);
+        }
